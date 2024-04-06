@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 28px;
+    background-color: #ffe4e1;
+  }
+
+  /* 画像の固定 */
+#header img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; /* 他の要素よりも背面に配置 */
+}
+
+/* フォームのスタイル */
+.container {
+  margin-top: 600px; /* 画像の高さ分だけ下にずらす */
+  padding: 20px;
+  background-color: #ffe4e1;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+
+  h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: #afeeee;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+
+  h3{
+    font-size:larger;
+    font-family: 'Economica', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  label{
+    font-family: 'Economica', sans-serif;
+  }
+
+  .spacer {
+    margin-right: 20px; /* 下側に20pxのマージンを追加 */
+}
+  #wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+
+
+  #save {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    cursor: pointer;
+  }
+
+  #save:hover{
+    background: #add8e6;
+    color: #fff;
+  }
+
+  .save_btn{
+    margin:15px;
+  }
+  
+  .tobtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+  }
+
+  .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Economica', sans-serif;
+    background-color: #db7093;
+    color: white;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #c0c0c0;
+  }
+
+  /* select.php分 */
+ 
+  h2{
+    font-family: 'Economica', sans-serif;
+    font-size:56px;
+    display: flex;
+    justify-content: center;
+    color:#db7093;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 18px;
+    margin-top: 518px; /* 画像の高さ分だけ下にずらす */
+    width: 100%;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+  }
+  
+  .card {
+    border: 2px solid #c0c0c0;
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
